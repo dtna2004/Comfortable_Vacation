@@ -1,0 +1,38 @@
+Bước 1: Thiết lập môi trường
+Tạo virtual environment
+Cài đặt các thư viện cần thiết:
+python-binance: để tương tác với Binance API
+pytorch: để xây dựng model
+pandas: xử lý dữ liệu
+numpy: tính toán
+python-dotenv: quản lý biến môi trường
+stable-baselines3: cho reinforcement learning
+Bước 2: Xây dựng module thu thập dữ liệu
+Kết nối Binance API
+Thu thập historical data (OHLCV)
+Thu thập orderbook data
+Lưu trữ dữ liệu vào định dạng phù hợp
+Bước 3: Xây dựng model
+Thiết kế kiến trúc Transformer + LSTM
+Xây dựng các layer attention
+Tích hợp LSTM layer
+Thêm các layer fully connected
+Thiết kế cơ chế reinforcement learning
+Bước 4: Training pipeline
+Xử lý dữ liệu training
+Chia tập train/validation
+Thiết lập các hyperparameters
+Training loop với early stopping
+Lưu model checkpoints
+Bước 5: Trading execution
+Xây dựng logic trading
+Quản lý vị thế và risk management
+Tích hợp reinforcement learning để điều chỉnh chiến lược
+Logging và monitoring
+Bước 6: Testing và tối ưu
+Backtesting trên historical data
+Paper trading để test live
+Fine-tuning các tham số
+Tối ưu performance
+
+Sau mỗi bước hãy chạy code để kiếm tra, sửa lối nếu có. chỉ khi đã check ok hết mới sang bước kế tiếp.
